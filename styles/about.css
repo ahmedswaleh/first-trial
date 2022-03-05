@@ -1,4 +1,3 @@
-.about-upper-section {
-    background-color: blue;
-    display: flex;
+.aboutus-page {
+    flex-direction: column;
 }

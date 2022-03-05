@@ -32,6 +32,7 @@ button.bttn{
     justify-content: space-between 2rem;
     text-decoration: none;
     margin-left: 2rem;
+    font-size: 20px;
 
 }
 .nav-links a:hover {
@@ -102,4 +103,10 @@ button.bttn{
 .image-2 {
     width: 70%;
     height: 70%;
+}
+.signup-button  {
+    background-color: #39e600;
+    height: 2.5rem;
+    width: 4rem;
+    border: none;
 }
