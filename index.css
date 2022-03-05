@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+button.bttn{
+    background-color: white;
+    width: 55px;
+    height: 177px;
+}
+.upper-section {
+    background-color: blue;
+    /* height: 50%; */
+}
+
+.lower-section {
+    background-color: white;
+    justify-content: space-between;
+    /* height: 50%; */
+    display: flex;
+    margin-left: 3rem;
+}
+.top-layer {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+.navigation-bar {
+    height: 3rem;
+    padding: 1rem;
+}
+.navigation-bar .nav-links a {
+    color: white;
+    justify-content: space-between 2rem;
+    text-decoration: none;
+    margin-left: 2rem;
+
+}
+.nav-links a:hover {
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+}
+.logo {
+    color: white;
+    margin: left 2rem;
+}
+
+.navigation-bar {
+    display: flex;
+    margin-left: 2rem;
+}
+.intro-buttons {
+    display: flex;
+}
+.second-button {
+    margin-left: 2rem;
+    display: flex;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.watch-more {
+    color: white;
+    height: 30px;
+    margin-left: 1rem;
+}
+.intro-words {
+    color: white;
+}
+.get-started {
+    color: blue;
+}
+.right-bottom {
+    margin-left: 3rem;
+}
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 1rem;
+}
+.bottom-buttons button {
+    width: 12rem;
+    border: none;
+    margin-right: 1rem;
+
+}
+.fast-button {
+    background-color: blue;
+    width: 140px;
+    height: 40px;
+}
+.second-button2 {
+    background-color: white;
+}
+.third-button {
+    background-color: white;
+    /* margin-left: 2rem; */
+}
+.image-2 {
+    width: 70%;
+    height: 70%;
+}

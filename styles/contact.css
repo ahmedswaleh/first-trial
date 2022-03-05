@@ -1,0 +1,17 @@
+.call-button {
+    background-color: green;
+    width: 7rem;
+    padding: 1rem;
+    border: none;
+}
+.contact-page {
+    height: 100%;
+    margin-left: 2rem;
+}
+.contact-heading {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-whole-page {
+    background-color: blue;
+}
