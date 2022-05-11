@@ -1,0 +1,34 @@
+body {
+    background-color: #80808099;
+}
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15rem 1rem 15rem;
+} 
+h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35rem;
+    padding: 1rem;
+    background-color: gray;
+}
+form input {
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+form .signup-btn {
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: green;
+    border: none;
+    margin: 1rem auto;
+}

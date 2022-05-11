@@ -1,7 +1,49 @@
-.terms-body {
-    background-color: blue;
+.navigation-bar {
+    height: 3rem;
+    padding: 1rem;
 }
-.terms-fast-p {
+.navigation-bar .nav-links a {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between 2rem;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 20px;
+
+}
+.nav-links a:hover {
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+}
+.logo {
+    color: white;
+    margin: left 2rem;
+}
+
+.navigation-bar {
+    display: flex;
+    margin-left: 2rem;
+}
+.background {
+    background-color: gray;
+    height: 100%;
+}
+.terms-fast-heading {
+    margin-left: 7rem;
+    font-size: xx-large;
+    color: white;
+}
+.terms-content {
+    color: white;
+    margin-left: 6rem;
+}
+.terms-fast-paragraph {
+    font-size: medium;
+}
+.Accept {
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 8rem;
 }
