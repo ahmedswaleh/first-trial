@@ -1,17 +1,71 @@
-.call-button {
-    background-color: green;
-    width: 7rem;
+.navigation-bar {
+    height: 3rem;
     padding: 1rem;
-    border: none;
 }
-.contact-page {
-    height: 100%;
+.navigation-bar .nav-links a {
+    color: white;
+    justify-content: space-between 2rem;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 20px;
+
+}
+.nav-links a:hover {
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+}
+.logo {
+    color: white;
+    margin: left 2rem;
+}
+
+.navigation-bar {
+    display: flex;
     margin-left: 2rem;
 }
-.contact-heading {
+.airtel-1 {
+    color: black;
+    width: 170px;
+    height: 55px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+}
+.airtel-2 {
+    color: black;
+    width: 170px;
+    height: 55px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+}
+.phone-numbers {
+    flex-direction: column;
+    margin-left: 3rem;
+}
+.cntct {
+    background-color: gray;
+}
+.or {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 4rem;
+} 
+.call {
+    color: white;
+    font-size: large;
+    margin-left: 4rem;    
 }
-.contact-whole-page {
-    background-color: blue;
+.email {
+    color: black;
+    width: 270px;
+    height: 55px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    margin-left: 3rem; 
 }
+
+
+
